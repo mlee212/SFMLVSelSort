@@ -11,6 +11,7 @@ int main()
 {
     srand(time(NULL));
     sf::RenderWindow window(sf::VideoMode(WIDTH, HEIGHT), "VSelSort");
+    window.setTitle("VSelSort");
 
     sf::Vector2f position;
     
